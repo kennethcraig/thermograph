@@ -10,10 +10,8 @@ tableSQL = """
 CREATE TABLE temperatures
 (
 	id INTEGER PRIMARY KEY,
-	rawTempInside TEXT,
-	rawTempOutside TEXT,
 	tempInside REAL,
-	tempOutside TEMP,
+	tempOutside REAL,
 	timestamp INTEGER
 );
 
